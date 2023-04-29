@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@material-tailwind/react/tailwind.css';
+
+.c-bg {
+  background-color: #12055c !important;
+}
+.c-bg-x {
+  color: white !important;
+}
+
+.auth-bg1 {
+  background-image: url('../svg/auth.svg');
+}
+.auth-bg2 {
+  background-image: url('../svg/forget.svg');
+}

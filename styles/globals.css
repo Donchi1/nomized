@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("/assets/styles/tailwind.css");
+
+
+.c-bg {
+    background-color: #12055c !important;
+  }
+  .c-bg-x {
+    color: white !important;
+  }
+  
+  .auth-bg1 {
+    background-image: url('/svg/auth.svg');
+  }
+  .auth-bg2 {
+    background-image: url('/svg/forget.svg');
+  }
+
+  .sidebar-scroll:hover{
+    overflow-y: scroll;
+    transition: all .5s linear;
+  
+  }
+  .sidebar-scroll::-webkit-scrollbar{
+    width: 8px;
+  }
+  .sidebar-scroll::-webkit-scrollbar-thumb{
+    background: rgb(239 83 80 );
+    border-radius: 10px;
+  }
+  
+  .sidebar-scroll::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  .dropdown-height{
+    max-height: 200px;
+  }
+
+  .dash {
+   min-width: 21% ;
+  }
+   .not-dash{
+    min-width: 21%;
+  }
+  .flex-more{
+    flex: 1;
+  }
+
+  .flex-more-3{
+    flex: 3;
+  }
+  .table-style{
+    width: 80%;
+
+  }
+
+  .chart-card{
+    min-height: 70%;
+  }
+
+  .owner{
+    border-radius: 10px 10px 0px 10px;
+    font-size: 17px;
+   
+  }
+
+  .message-text{
+    background-color: rgb(195, 191, 191);
+    font-size: 17px;
+    border-radius: 10px 10px 10px 0px
+  }
+  .message-wrapper{
+    max-width: 65%;
+  }
+  .chat-container{
+    width: 95%;
+  }
+  .chat-message{
+    height: 50vh;
+    overflow-y: auto;
+  }
+  .chat-message-admin{
+    height: 80vh;
+    overflow-y: auto;
+  }
+
+  .text-message{
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+.msg{
+  width: 85%;
+}
+  .chat-footer{
+    align-self: flex-end;
+  }
+  .chat-footer textarea::placeholder{
+      color: rgb(59, 58, 58);
+  }
+  .chat-footer-container{
+    width: 95%;
+    background-color: rgb(195, 191, 191);
+  }
+  .no-message{
+    height: 50vh;
+  }
+  .no-message-admin{
+    height: 80vh;
+  }
+ .chat-users{
+   border-bottom: 1px solid white;
+ }
+ .users-chat-wrapper{
+   height: 100%;
+ }
+  .show-side {
+    transform: translateX(0%) ;
+  
+  } 
+  .hide-side{
+    transform: translateX(-100%) ;
+  }
+
+  @media (max-width: 768px) {
+    .msg{
+      width: 100%;
+    }
+   
+  }
+  
+
+  
